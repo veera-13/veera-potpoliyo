@@ -1,0 +1,100 @@
+#abimg{
+    display:flex;
+    flex-direction: row;
+    margin: 20PX;
+    gap: 10px;
+
+}
+#prf{
+    height:300px;
+    width:300px;
+    border: 1px solid rgba(64, 63, 63, 0.79);
+    border-radius: 40%;
+    box-shadow:10px 10px 10px var(--primary-color);
+
+}
+#prof:hover{
+    transform: scale(1.05);
+    rotate: 360deg;
+
+
+
+}
+.pp{
+    font-size: 20px;
+    text-align: justify;
+}
+h2 span{
+    margin-left:270px;
+    font-size: 35px;
+    color:var(--primary-color);
+
+}
+h3 span{
+    font-size: 30px;
+    color:var(--primary-color);
+    margin-left: 500px;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    gap:5px
+}
+.skills>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    gap:3px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.skills>img:hover{
+    transform: scale(1.03);
+}
+.get{
+    height: 50px;
+    width: 150px;
+    color:blue;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left:200px;
+}
+.get:hover{
+    transform: scale(1.03);
+}
+.abimg{
+    display:flex;
+    flex-direction: row;
+
+    margin: 20PX;
+    gap: 10px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+#ac{
+    height: 50px;
+    width: 200px;
+    color:blue;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 0px;
+    box-sizing: border-box;
+
+    
+}
+#ac:hover{
+    transform: scale(1.05);
+
+
+}

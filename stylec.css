@@ -1,0 +1,163 @@
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+.r{
+    height: 400px;
+    width:500px;
+}
+ .detals{
+    margin-right:400px ;
+}
+
+.detals img{
+    height:50px;
+    width:50px;
+    border-radius: 30%;
+    margin-left: 10px;
+   
+}
+.input{
+    margin: 200px;
+}
+input{
+    border-radius: 20px;
+    height: 50px;
+    width: 350px;
+ }
+    
+.name{
+    display: flex;
+    border: 3px white;
+    border: 2PX solid white;
+    border-radius: 20px;
+    width: 400px;
+    background-color: white;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    border: 3px white;
+    border: 2PX solid white;
+    border-radius: 20px;
+     width: 400px;
+    background-color:  white;
+
+
+}
+#msg{
+    height: 80px;
+    width:350px;
+    resize: none;
+  border-radius: 30px;
+}
+ textarea{
+    width: 320px;
+    /* text-align: center; */
+     font-size: 20px;
+     padding:50px;
+     box-sizing: border-box;
+
+    
+
+
+ }
+ textarea::placeholder{
+    color:black;
+
+ }
+ #pwe{
+    gap:20px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ #pwe>a>img{
+    height: 70px;
+    width: 60px;
+ }
+
+
+
+#button{
+    height: 70px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    border-radius: 25px;
+}
+#button>input{
+    background-color: hsla(202, 65%, 73%, 0.432);
+    border: none;
+    color:white;
+    font-size: 25px;
+    font-weight: 300;
+    width:250px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.leftccc>img{
+    height: 500px;
+    width:450px;
+    border-radius:10%;
+    margin-top: 0px;
+    /* gap: 30px; */
+    position: absolute;
+    right: 120px;
+    transform: scale(1.04);
+    animation: veera 2s ease infinite alternate;
+    box-shadow: 10px 10px 10px var(--primary-color);
+    border: 3px solid var(--primary-color);
+
+    
+}
+#vee{ 
+ /* height: 100%;
+    width: 100%; */
+    /* borde    r:2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap:50px;
+
+
+}
+.rightccc{
+position: absolute;
+left:250px;
+gap:20px;
+height: 500px;
+width: 450px;
+border:2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 3px solid rgba(185, 157, 157, 0.589);
+padding: 10px;
+border-radius:30px ;
+animation: veerandra 2s ease infinite alternate;
+
+
+}
+@keyframes veera{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-15px);
+    }
+  }
+  
